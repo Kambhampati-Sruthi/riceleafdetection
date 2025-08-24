@@ -8,10 +8,10 @@ from gtts import gTTS
 from skimage.io import imread
 from skimage.transform import resize
 # Load model & preprocessors
-svm = joblib.load("models/svm_model.pkl")
-scaler = joblib.load("models/scaler.pkl")
-pca = joblib.load("models/pca.pkl")
-with open("models/label_map.json", "r") as f:
+svm = joblib.load("svm_model.pkl")
+scaler = joblib.load("scaler.pkl")
+pca = joblib.load("pca.pkl")
+with open("label_map.json", "r") as f:
     class_map = json.load(f)
 
 # Precaution messages in English and Telugu
