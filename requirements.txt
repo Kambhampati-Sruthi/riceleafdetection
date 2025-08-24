@@ -1,4 +1,5 @@
 streamlit
+scikit-learn
 scikit-image
 joblib
 gtts
