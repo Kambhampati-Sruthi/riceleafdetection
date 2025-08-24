@@ -71,8 +71,8 @@ def speak_precaution(text, lang_choice):
     st.audio(audio_file.read(), format="audio/mp3")
 
 # Streamlit UI
-st.set_page_config(page_title="Mini Plantix", layout="centered")
-st.title("🌱 Mini Plantix - Rice Disease Detection")
+st.set_page_config(page_title="Rice Leaf AI", layout="centered")
+st.title("🌱 - Rice Leaf AI – Smart Disease Detection for Crops")
 st.write("Upload a leaf image or use camera to detect disease and get precautions.")
 
 voice_lang = st.selectbox("🔈 Choose voice language", ["English", "Telugu"])
